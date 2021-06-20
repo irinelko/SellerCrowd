@@ -1,0 +1,27 @@
+{
+  "name": "sellercrowd",
+  "version": "1.0.0",
+  "description": "Test automation assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Irinel Tapalaga",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.5.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.1.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": true
+  }
+
+}
